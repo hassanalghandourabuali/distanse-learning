@@ -1,0 +1,242 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background:url('../img/bg.jpg') no-repeat center center;
+    height: 600px;
+    background-size:cover;
+    /* background: url('../img/bg.jpg') no-repeat center center; */
+}
+#nav-bar{
+    height: 60px;
+    background-color: rgb(2, 2, 50);
+    position:fixed;
+    width: 100%;
+    /* top:0; */
+    /* left: 0; */
+    padding: 0 50px 0 50px;
+   
+}
+#nav-bar #logo{
+    float: left;
+    width: 30%;
+    height: 10px;
+
+}
+#nav-bar #mainnav{
+    float: left;
+    width: 70%;
+    text-align: right;
+    height:10px;
+     /* margin-bottom: 20px;
+    padding-bottom: 20px;  */
+}
+#nav-bar .logoicon{
+    font-size:30px;
+    color:#fff;
+    padding:17px;
+}
+#navegation .navitem{
+    color: #fff;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 20px 15px;
+    height: 60px;
+}
+#navegation .navitem:hover{
+    color: blue;
+    background-color: white;
+    /* height: 60px; */
+    padding-top: 30px;
+    
+}
+#navegation .active{
+    color:white;
+    display: inline-block;
+    height: 60px;
+    padding: 20px 15px;
+}
+#head{
+    padding-top: 100px;
+}
+#head .sitetitle{
+    background-color: #0000ff;
+    color: white;
+    font-size: 30px;
+    width: 20%;
+    padding: 15px;
+    margin-left: 100px;
+    margin-top: 200px;  
+    cursor: pointer; 
+}
+#Services{
+    padding: 20px;
+    background-color:white;
+    height: 400px;
+}
+#section .sechead{
+    text-align: center;
+    color: rgb(40, 40, 180);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+#section .headhr{
+   width: 10%;
+   margin: auto;
+   border: 1px solid gray;
+   margin-bottom: 20px;
+}
+#section .service{
+    width: 31%;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    height: 300px;
+    margin-left: 21px;
+}
+#section  .service2,#services_sec  .service3{
+    margin-left: 1.5%;
+    
+}
+.service .parg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(40, 40, 180);
+    text-align: center;
+    color: white;
+    line-height: 1.3;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.service .h4{
+    color: rgb(40, 40, 180);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.service .paragraph{
+    text-align: justify;
+    line-height: 1.5;
+    color:gray;
+}
+#services_sec .service:hover{
+    background-color: black;
+    border: 1px solid rgb(40, 40, 180);
+    color: gray;
+}
+#parg .service:hover .parg{
+    background-color: gray;
+    color: black;
+}
+#parg .service:hover .h4{
+    color: white;
+}
+#parg .service:hover .h4{
+    color: white;
+}
+footer{
+    background: url('../img/bg.jpg')no-repeat center center;
+    height: 300px;
+    background-size: cover;
+}
+footer #footer{
+    background: rgba(9,23,86,0.7);
+    height: 300px;
+    background-size: cover;
+    padding: 30px;
+    font-family: sans-serif;
+}
+#footer .side{
+    float: left;
+    width: 33.333%;
+    padding: 20px;
+    color: white;
+}
+#footer .side-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.infoside .site-about{
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+/* .infoside .social{
+    text-align: center;
+} */
+.social .socialicon{
+    margin-left: 7px;
+    font-size: 22px;
+}
+#footer .social{
+    cursor: pointer;
+}
+#footer .quicklinks .qlinks{
+    margin: 20px;
+    width: 33.333%;
+    /* height: 190px; */
+}
+.qlinks .qlink-li{
+    margin-bottom: 8px;
+}
+.qlinks .qlink-item{
+    color: white;
+    font-size: 12px;
+}
+.qlinks .qlink-item:hover{
+    color: blue;
+    font-size: 12px;
+}
+/* #footer .contact .contactform{
+
+} */
+.contactform .inputf,.contactform .inputarea,.contactform .btn{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border:1px solid #ccc;
+    font-family: sans-serif;
+}
+.contactform .inputarea{
+    color:#716868;
+}
+.contactform .inputf:focus,.contactform .inputarea:focus{
+    outline: none;
+    
+
+}
+.contactform .btn{
+    background-color: blue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.contactform .btn:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+#copy{ 
+    margin: auto;
+}
+#copyright{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    line-height: 1.3;
+    text-transform: capitalize;
+    font-size: 20px;
+}
